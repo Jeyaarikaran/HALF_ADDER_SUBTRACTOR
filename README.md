@@ -49,7 +49,7 @@ Figure -02 HALF Subtractor
 
 
 **Program:**
-
+```
  module exp3(a,b,sum,carry);
  input a,b;
  output sum,carry;
@@ -63,7 +63,7 @@ output difference,borrow;
 assign difference= (a ^ b);
 assign borrow= ( ~a & b);
 endmodule
-
+```
 
 /* Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
 
